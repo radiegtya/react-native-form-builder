@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Item, Input, Icon, ListItem, Text } from 'native-base';
+import { View, Item, Input, Icon, ListItem, Text, Label } from 'native-base';
 import { Platform } from 'react-native';
 import { getKeyboardType } from '../../utils/methods';
 
