@@ -23,9 +23,9 @@ export default class PickerField extends Component {
       return (
         <View
           style={Object.assign(styles.pickerMainAndroid, {
-            backgroundColor: theme.pickerBgColor,
-            borderBottomColor: theme.inputBorderColor,
-            borderBottomWidth: theme.borderWidth,
+            //backgroundColor: theme.pickerBgColor,
+            //borderBottomColor: theme.inputBorderColor,
+            //borderBottomWidth: theme.borderWidth,
           })}
         >
           <View style={{ flex: 7 }}>
