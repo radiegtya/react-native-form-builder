@@ -21,10 +21,11 @@ export default class TextInputField extends Component {
       <ListItem style={{ borderBottomWidth: 0, paddingVertical: 5 }}>
         <View style={{ flex: 1 }}>
           <View>
-            <Item error={attributes.error}>
+            <Item error={attributes.error} floatingLabel>
               { attributes.icon &&
               <Icon color={theme.textInputIconColor} name={attributes.icon} />
                 }
+              <Label>{attributes.label}</Label>
               <Input
                 style={{
                   height: inputProps && inputProps.multiline && (Platform.OS === 'ios' ? undefined : null),
